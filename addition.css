@@ -1,0 +1,116 @@
+.block .block__item p {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.block .block__item h4 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.block .news {
+    background: url(images/news-bg.jpg) no-repeat #deeefc;
+    background-size: cover;
+    color: #fff;
+}
+
+.block .block__item.news {
+    position: relative;
+}
+
+.block .block__item.news h3 {
+    color: #fff;
+}
+
+.block .block__item.news .news-date {
+    font-family: "Roboto Condensed", sans-serif;
+    position: absolute;
+    right: 36px;
+    top: 43px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.news .page-head {
+    background: url(images/news-page-bg.jpg) 50% 50% no-repeat #2d95cb;
+}
+
+
+.content {
+    padding: 50px 0;
+    background-color: #fff;
+    margin: 0 30px;
+}
+
+.b-block__img img {
+    display: block;
+    width: 100%;
+}
+
+.b-block__date {
+    color: #6c6c6c;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: -15px 35px -17px;
+    text-align: right;
+}
+
+.b-service.list .b-block:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.b-service.list .b-block {
+    padding: 0;
+    border: none;
+}
+
+.b-service.list .b-block__img {
+    width: 136px;
+    float: left;
+    margin-bottom: 0;
+}
+.b-service.list .b-block__body {
+    padding-left: 156px;
+    margin: 18px 0;
+}
+
+@media screen and (max-width: 980px) {
+    .block .block__item {
+        padding-bottom: 69px;
+        height: auto;
+        min-height: 234px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .block .block__item {
+        padding-bottom: 69px;
+        height: auto;
+        min-height: 0;
+    }
+
+    .mobile-full-img .b-block .b-block__img {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 580px) {
+    .b-service.list .b-block__body {
+        padding: 0 15px;
+    }
+
+    .b-service.list .b-block__img {
+        width: 100%;
+        float: none;
+    }
+    .b-service.list .b-block__date {
+        margin: 8px 0;
+        text-align: left;
+    }
+}
