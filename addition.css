@@ -354,6 +354,18 @@ figcaption {
     }
 }
 
+@media screen and (max-width: 767px) {
+   /*  .globe p,
+    .earth p,
+    .ship p,
+    .news p {
+    	overflow: hidden;
+    	text-overflow: ellipsis;
+    	white-space: nowrap;
+
+    } */
+}
+
 
 @media screen and (max-width: 580px) {
     .b-service.list .b-block__body {
